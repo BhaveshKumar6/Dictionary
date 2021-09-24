@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.content{
+    text-align: center;
+    padding: 1em;
+    margin: 2em;
+    margin-top: 4em;
+    border: 3px solid orange;
+}
+heading{
+    font-size: 1.5rem;
+    padding: 24px;
+}
+heading:hover{
+    color: red;
+}
+input{
+    padding: 0.7em;
+    width: 40%;
+}
+.button{
+    background-color: blue;
+    padding: 0.9em 1.5em;
+    color: white;
+    border-color: red;
+    font-size: 0.8rem;
+}
+.button:hover{
+    background-color: red;
+    border-color: orangered;
+}
+.loading{
+    display: none;
+}
+.suggestion{
+    background-color: lightskyblue;
+    color: black;
+    margin: 8px;
+    padding: 8px;
+    /* width: 5%;
+    display: flex;
+    flex-wrap: wrap; */
+    justify-content: center;
+    line-height: 8vh;
+    /* display: inline-block; */
+}
+.suggestion:hover{
+    background-color: red;
+    color: white;
+}
+.audio{
+    margin: 5vh;
+}
