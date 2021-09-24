@@ -66,5 +66,11 @@ input{
     color: white;
 }
 .audio{
-    margin: 5vh;
+    /* margin: 5vh; */
+    margin-top: 5vh;
+    overflow: hidden;
+    
+}
+@media screen {
+    
 }
