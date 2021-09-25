@@ -86,7 +86,7 @@ async function getData(word){
         }
 
     
-    console.log(data);
+    //console.log(data);
 }
 
 function renderSound(soundName){
