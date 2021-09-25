@@ -61,6 +61,7 @@ async function getData(word){
         let heading = document.createElement('h3');
         // show did you mean 
         heading.innerText = 'Did You Mean ?';
+        heading.classList.add('suggestheading');
         notFound.appendChild(heading); // append it in not Found section 
         
         // to suggestions 

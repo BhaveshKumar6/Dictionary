@@ -43,12 +43,13 @@ body{
     text-align: center;
     padding: 1em;
     margin: 2em;
-    margin-top: 4em;
+    margin-top: 3em;
     border: 3px solid orange;
 }
 heading{
     font-size: 1.5rem;
     padding: 24px;
+    /* color: white; */
 }
 heading:hover{
     color: red;
@@ -60,8 +61,7 @@ input{
 .button{
     /* background-color: blue; */
     background-color: #a4508b;
-    background-image: linear-gradient(
-326deg, #a4508b 0%, #5f0a87 74%);
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     padding: 0.9em 1.5em;
     color: white;
     /* border-color: red; */
@@ -75,26 +75,39 @@ input{
     display: none;
 }
 .suggestion{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     background-color: lightskyblue;
     color: black;
-    margin: 8px;
+    /* display: block; */
+    margin: 5px;
     padding: 8px;
-    /* width: 5%;
-    display: flex;
-    flex-wrap: wrap; */
-    justify-content: center;
+    /* width: 5%;*/
+    /* /display: block; */
+    /* flex-wrap: wrap; 
+    justify-content: center;*/
     line-height: 8vh;
+    
     /* display: inline-block; */
 }
 .suggestion:hover{
     background-color: red;
     color: white;
 }
+.suggestheading{
+    justify-content: center;
+
+}
 .audio{
     /* margin: 5vh; */
     margin-top: 5vh;
     overflow: hidden;
     
+}
+.not_found{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 footer{
     color: white;
